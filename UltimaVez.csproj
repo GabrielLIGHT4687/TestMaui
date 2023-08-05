@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFrameworks>net7.0-android</TargetFrameworks>
+    <UseMaui>true</UseMaui>
+    <SingleProject>true</SingleProject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <EnableDefaultCompileItems>true</EnableDefaultCompileItems>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>
+    </LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+  <PropertyGroup>
+    <UseMauiEssentials>false</UseMauiEssentials>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="ReactiveUI.Maui" Version="19.4.1" />
+    <PackageReference Include="ReactiveUI.Fody" Version="19.4.1" />
+  </ItemGroup>
+</Project>
